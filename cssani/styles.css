@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  animation: gay 1s infinite;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h1:after {
+  content: "";
+  animation: spin 0.5s infinite;
+}
+
+@keyframes spin {
+  0% {
+    content: "IM GAY";
+  }
+  25% {
+    content: "IM BISEXUAL";
+  }
+  50% {
+    content: "IM ASEXUAL";
+  }
+  75% {
+    content: "IM TRANSGENDER";
+  }
+  100% {
+    content: "IM QUEER";
+  }
+}
+@keyframes gay {
+  14.285% {
+    background-color: red;
+  }
+  28.571% {
+    background-color: orange;
+  }
+  42.857% {
+    background-color: yellow;
+  }
+  57.142% {
+    background-color: green;
+  }
+  71.428% {
+    background-color: blue;
+  }
+  85.714% {
+    background-color: indigo;
+  }
+  100% {
+    background-color: violet;
+  }
+}
