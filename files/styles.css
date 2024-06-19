@@ -19,6 +19,7 @@ h1 {
   animation-name: flicker;
   animation-iteration-count: infinite;
   animation-duration: 0.3s;
+  font-size: 5rem
 }
 
 @keyframes gay {
