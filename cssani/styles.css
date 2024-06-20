@@ -5,14 +5,14 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  animation: gay 1s infinite;
+  animation: gay 1s 2.5;
 }
 h1 {
   font-size: 2.5rem;
 }
 h1:after {
-  content: "";
-  animation: spin 0.5s infinite;
+  content: "IM STRAIGHT";
+  animation: spin 0.5s 5;
 }
 
 @keyframes spin {
